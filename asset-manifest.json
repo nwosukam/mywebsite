@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/mywebsite/static/css/main.d604c181.css",
+    "main.js": "/mywebsite/static/js/main.d7c57371.js",
+    "static/js/453.1b23023c.chunk.js": "/mywebsite/static/js/453.1b23023c.chunk.js",
+    "static/media/background.png": "/mywebsite/static/media/background.a0f0ba48c59704909366.png",
+    "static/media/smiley.png": "/mywebsite/static/media/smiley.dd4d9e9d8058227e01d7.png",
+    "static/media/musicappp.png": "/mywebsite/static/media/musicappp.17cfd602b31e20739cab.png",
+    "static/media/personal.jpeg": "/mywebsite/static/media/personal.b5fd090e822afef9e133.jpeg",
+    "static/media/test.pdf": "/mywebsite/static/media/test.35190dfccfbc5c16d252.pdf",
+    "static/media/html.png": "/mywebsite/static/media/html.1d7b133e22ffe4829da6.png",
+    "static/media/codingkid.jpeg": "/mywebsite/static/media/codingkid.758fe4e36c7822d1b1c4.jpeg",
+    "static/media/comppic.jpeg": "/mywebsite/static/media/comppic.4d9f9b456c95e8710624.jpeg",
+    "static/media/sciencepic.jpeg": "/mywebsite/static/media/sciencepic.c40ec8c2ac249a819100.jpeg",
+    "static/media/museumpic.jpeg": "/mywebsite/static/media/museumpic.8969368368f30d608f6f.jpeg",
+    "static/media/currentcoding.jpeg": "/mywebsite/static/media/currentcoding.56b0be26d8225fb4e602.jpeg",
+    "static/media/bootstrap.png": "/mywebsite/static/media/bootstrap.f8836aae0d39be58b2c5.png",
+    "static/media/logo2.png": "/mywebsite/static/media/logo2.936830e76e59c732464c.png",
+    "static/media/andrew.png": "/mywebsite/static/media/andrew.0a01d21d491893d2fc12.png",
+    "static/media/calculator.png": "/mywebsite/static/media/calculator.28e94de35d87793da647.png",
+    "static/media/css.png": "/mywebsite/static/media/css.c5583d093ec16d030195.png",
+    "static/media/chos.png": "/mywebsite/static/media/chos.7d928801d0c66540db58.png",
+    "index.html": "/mywebsite/index.html",
+    "main.d604c181.css.map": "/mywebsite/static/css/main.d604c181.css.map",
+    "main.d7c57371.js.map": "/mywebsite/static/js/main.d7c57371.js.map",
+    "453.1b23023c.chunk.js.map": "/mywebsite/static/js/453.1b23023c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d604c181.css",
+    "static/js/main.d7c57371.js"
+  ]
+}
