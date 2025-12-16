@@ -1,0 +1,32 @@
+#main-con{
+         margin: 0; 
+     padding: 0; 
+    font-family: Josefin Sans, sans-serif;
+    box-sizing: border-box;
+    background-image: url('./background.png');
+    
+} 
+
+#nav{
+    font-family: Josefin Sans, sans-serif;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#footer-con{
+    padding: 20px;
+    /* margin-top: 50px; */
+}
+
+#body-con{
+
+    margin: 0;
+    padding: 50px;
+    padding-top: 100px;
+ }
+.link-hover{
+    transition: 0.5s ease-out;
+}
+.link-hover:hover {
+    transition: 0.5s ease;
+  font-size: 18px !important; /* Bootstrap "success" color */
+  text-decoration: underline;
+}
