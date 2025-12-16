@@ -67,7 +67,7 @@ function Contact() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link>
-              <Link className="nav-link link-hover text-white" to="/">Home</Link>
+              <Link className="nav-link link-hover text-white" to="/mywebsite">Home</Link>
             </Nav.Link>
             <Nav.Link>
               <Link className="nav-link link-hover text-white" to="/about">About</Link>
@@ -224,7 +224,7 @@ function Contact() {
   <section className='text-center text-light' id='footer-con'>
     <div className='d-flex justify-content-center align-items-center gap-3 w-100' id='socials'>
             <a className='btn text-light link-hover'>
-              <Link className="nav-link link-hover text-white" to="/">Home</Link>
+              <Link className="nav-link link-hover text-white" to="/mywebsite">Home</Link>
             </a>
             <a className='btn text-light link-hover' href="https://github.com/Kamsi245">Github</a>
             <a className='btn text-light link-hover' href="https://www.linkedin.com/in/kamsiyochukwu-nwosu-871ba8390/">LinkedIn</a>
