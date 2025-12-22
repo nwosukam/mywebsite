@@ -134,6 +134,9 @@
 }
 #proj{
   gap: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
 }
 #proj div{
   background-color:  rgba(255, 255, 255, 0.2);
@@ -180,12 +183,17 @@
     flex-direction: column;
   }
   #proj{
-    flex-direction: column;
-    gap: 20px;
+   grid-template-columns: 1fr;
+   gap: 16px;
   }
 #proj div{
     width: 100%;
     display: flex;
     gap: 20px;
   }
+}
+@media (max-width: 600px){
+            #nav4{
+        width: 100% !important;
+    }
 }

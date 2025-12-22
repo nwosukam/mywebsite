@@ -39,11 +39,11 @@ function Home() {
     </Navbar>
 
   <section  className='d-flex justify-content-center align-items-center' id='body'>
-    <div className='w-75 text-white'>
+    <div id='home-text' className='text-white'>
 <h1>Hi,<br/> I'm Kamsiyochukwu (Kamsi) Nwosu.</h1>
 <div className='d-flex gap-3' id='typewriter-div'>
   <h1>I'm   </h1>
-  <h1 id='typewriter'><Typewriter options={{
+  <h2 id='typewriter'><Typewriter options={{
     strings:[
       "<span id='red'>a coding talent</span>", 
       "<span id='blue'>a developer</span>", 
@@ -54,9 +54,9 @@ function Home() {
        cursor: '_', 
        delay: 90,
        deleteSpeed: 40  }}/>
-       </h1>
+       </h2>
        </div>
-<p>I’m a Coding Talent with a passion for creativity, problem-solving, and continuous learning. I enjoy transforming ideas into interactive, functional, and appealing digital experiences. Whether it’s developing sleek websites, building responsive user interfaces, or optimizing backend logic, I take pride in writing code that truly makes a difference.</p>
+<p>I am a Coding Talent driven by creativity, problem-solving, and continual growth. I excel at turning concepts into interactive, efficient, and visually striking digital solutions. From developing refined websites and crafting responsive interfaces to streamlining backend systems, I take pride in writing code that delivers real impact.</p>
 <div className='d-flex gap-3'>
 <a className='btn btn-outline-secondary text-light' href={test} download='Kamsi Nwosu Resume'>Download Resume</a>
 <button className='btn btn-outline-secondary text-light'>

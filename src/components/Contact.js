@@ -108,7 +108,7 @@ function Contact() {
       ref={form}
       onSubmit={handleSubmit(sendEmail)}
       style={{
-        width: "700px",
+        maxWidth: "700px",
         margin: "0 auto",
         padding: "20px",
         color: "white",
@@ -122,11 +122,13 @@ function Contact() {
       <h2>Send Email</h2>
 
       {/* NAME */}
-      <div style={{
+      <div id='inputs' style={{
         display: "flex",
         flexDirection: "row",
       }}>
-        <div style={{      
+        <div 
+        id='label-inputs'
+        style={{      
             display: "flex",
         flexDirection: "column",
         marginRight: "200px",
@@ -175,6 +177,7 @@ function Contact() {
       <div>
         <label>Message</label>
         <textarea
+        id='textarea'
           rows="5"
           {...register("message", {
             required: "Message cannot be empty",

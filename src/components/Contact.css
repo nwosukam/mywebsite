@@ -30,3 +30,29 @@
   font-size: 18px !important; /* Bootstrap "success" color */
   text-decoration: underline;
 }
+
+@media (max-width: 600px){
+            #nav{
+        width: 100% !important;
+    }
+}
+@media (max-width: 800px){
+    #body-con{
+        padding-left: 0;
+        padding-Right: 0;
+    }
+}
+@media (max-width: 700px){
+    #inputs{
+        flex-direction: column !important;
+    }
+    #textarea{
+        width: 100% !important;
+    }
+    #inputs input{
+        width: 100% !important;
+    }
+    #label-inputs{
+        margin-right: 0 !important;
+    }
+}

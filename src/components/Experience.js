@@ -21,6 +21,8 @@ import html from './html.png'
 import css from './css.png'
 import musicapp from './musicappp.png'
 import smiley from './smiley.png'
+import atctool from './atctool.png'
+import hallow from './hallow.png'
 import { FaLinkedin } from "react-icons/fa";
 import { MdLanguage } from "react-icons/md";
 
@@ -107,7 +109,7 @@ function Experience() {
     <div id='pallets'>
     <h3 id='year'>2022</h3>
     <div id='content'>
-      <p>This year I joined the team not yet as an intern but under the mentorship of the company owner. This year I started learning the basics of Javascript. I learnt the core concepts of how variables, functions, objects and arrays worked. I was then able to implement some of those core concepts into some simple tools like a calculator app, a to-do list and other apps</p>
+      <p>This year, I joined the team, not yet as an intern, but under the mentorship of the company owner. This year, I started learning the basics of JavaScript. I learnt the core concepts of how variables, functions, objects, and arrays worked. I was then able to implement some of those core concepts into some simple tools like a calculator app, a to-do list, and other apps</p>
     </div>
     <div id='image-div'>
       <img src={java} width='70px'/>
@@ -118,7 +120,7 @@ function Experience() {
    <div id='pallets'>
     <h3 id='year'>2023</h3>
     <div id='content'>
-      <p>This year, I was accepted as an intern where I supported various company activities. I helped train ICT teachers from different schools by explaining HTML and CSS during in-person sessions. I also contributed to the development of the Coscharis Motors website by attending project meetings, documenting minutes, and supporting implementation based on client requirements. Additionally, I strengthened my JavaScript skills by learning the React framework, including components, props, state, and hooks.
+      <p>This year, I joined the company as an intern and supported various activities. I trained ICT teachers from different schools by explaining HTML and CSS during in-person sessions. I contributed to the development of the Coscharis Motors website by attending project meetings, documenting minutes, and implementing solutions based on client requirements. Additionally, I strengthened my JavaScript skills by learning the React framework, including components, props, state, and hooks.
 </p>
     </div>
     <div id='image-div'>
@@ -130,7 +132,7 @@ function Experience() {
    <div id='pallets'>
     <h3 id='year'>2024</h3>
     <div id='content'>
-      <p>In 2024, I completed a summer internship where I created and formatted coding task hints for the Andrew Teaches Coding learning book, participated in outreach events such as Code4Teen at Tech Fest Lagos, and provided one-on-one coding support to children. I also developed the company website footer using React, Bootstrap, and CSS, managed student login details for Starfields Schools on the Andrew Teaches Coding Learning Book, and improved my Bootstrap 5 styling skills.
+      <p>In 2024, I completed a summer internship during which I created and formatted coding task hints for the Andrew Teaches Coding learning book. I participated in outreach events, such as Code4Teen at Tech Fest Lagos, and provided individualized coding support to children. Additionally, I developed the company website footer using React, Bootstrap, and CSS, managed student login details for Starfields Schools on the Andrew Teaches Coding Learning Book, and further developed my proficiency in Bootstrap 5 styling.
 </p>
     </div>
     <div id='image-div'>
@@ -180,8 +182,8 @@ function Experience() {
   <p>Bootstrap is a popular CSS framework used to build responsive and mobile-friendly websites quickly. It provides ready-made components like buttons, navbars, grids, and forms, along with a flexible layout system.</p>
 </div>
     </div>
-<h1>And here are some personal project I've worked on myself,</h1>
- <div id='proj' className='d-flex justify-content-center align-items-center p-2'>
+<h1>And here are some personal projects I've worked on myself,</h1>
+ <div id='proj' className='justify-content-center align-items-center p-2'>
   <div>
   <a href='https://kamsi-music-player.netlify.app'><img src={musicapp} width='300px'/></a>
    <a href='https://kamsi-music-player.netlify.app' className='btn text-white link-hover'> <h3>Music Player App</h3> </a>
@@ -191,6 +193,16 @@ function Experience() {
   <a href='https://smiley-rush1011.netlify.app/'><img src={smiley} width='300px'/></a>
    <a href='https://smiley-rush1011.netlify.app/' className='btn text-white link-hover'><h3>Mood Text Generator</h3></a>
   <p>I built a Mood Text Generator App that generates context-appropriate text based on the mood selected by the user. The app offers multiple mood options and instantly produces text that reflects the chosen emotional tone. It demonstrates dynamic content generation and a clean, responsive interface, making it a strong example of interactive web application development.</p>
+  </div>
+      <div>
+  <a href='https://assessment-tool.Andrewteachescoding.com'><img src={atctool} width='300px'/></a>
+   <a href='https://assessment-tool.Andrewteachescoding.com' className='btn text-white link-hover'><h3>Assesment Tool Creator</h3></a>
+  <p>I contributed to the development of the Assessment Creation Tool, a platform used to create student assessments based on the Andrew Teaches Coding textbook by Code14Labs. My responsibilities included designing and implementing the login interface and the assessment group creation page, using technologies such as JavaScript, React, and Bootstrap.</p>
+  </div>
+      <div>
+  <a href='https://hallowexe.netlify.app/'><img src={hallow} width='300px'/></a>
+   <a href='https://hallowexe.netlify.app/' className='btn text-white link-hover'><h3>Hallow Clothing Brand Website</h3></a>
+  <p>I designed and developed the official website for Hallow Clothing, a streetwear brand, delivering a fully functional e-commerce platform. The website enables users to browse products, add items to a shopping cart, complete secure online payments, and place orders for processing and delivery by the Hallow team.</p>
   </div>
  </div>
 </section>

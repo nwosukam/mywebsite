@@ -39,3 +39,9 @@
 /* .carousel-item {
   transition: transform 0.6s ease-in-out;
 } */
+
+@media (max-width: 600px){
+            #nav3{
+        width: 100% !important;
+    }
+}

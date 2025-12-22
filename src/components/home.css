@@ -14,6 +14,10 @@
 #body{
     height: 100%;
     padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #body h1{
     font-size: 4rem;
@@ -56,4 +60,33 @@
          font-weight: 700;
   color: white;              /* inside transparent */
   -webkit-text-stroke: 2px rgb(193, 193, 13);
+}
+#home-text{
+    width: 75%;
+}
+@media (max-width: 800px) {
+    #home-text{
+        width: 100%;
+    }
+    #body{
+        width: 100%;
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }    
+}
+#typewriter{
+    font-size: 3.5rem;
+}
+@media (max-width:480px){
+    #typewriter{
+        font-size: 2.5rem;
+    }
+    #typewriter-div h1{
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 600px){
+            #nav2{
+        width: 100% !important;
+    }
 }
