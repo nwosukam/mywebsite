@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.43dfa066.css",
-    "main.js": "/static/js/main.7cd954e8.js",
+    "main.css": "/static/css/main.e2e0ada6.css",
+    "main.js": "/static/js/main.c8ad15e0.js",
     "static/js/453.1b23023c.chunk.js": "/static/js/453.1b23023c.chunk.js",
     "static/media/background.png": "/static/media/background.a0f0ba48c59704909366.png",
     "static/media/smiley.png": "/static/media/smiley.dd4d9e9d8058227e01d7.png",
+    "static/media/hallow.png": "/static/media/hallow.e63b60ee663beabab1b0.png",
     "static/media/musicappp.png": "/static/media/musicappp.17cfd602b31e20739cab.png",
     "static/media/personal.jpeg": "/static/media/personal.b5fd090e822afef9e133.jpeg",
+    "static/media/atctool.png": "/static/media/atctool.865a23e703301197dd13.png",
     "static/media/test.pdf": "/static/media/test.35190dfccfbc5c16d252.pdf",
     "static/media/html.png": "/static/media/html.1d7b133e22ffe4829da6.png",
     "static/media/codingkid.jpeg": "/static/media/codingkid.758fe4e36c7822d1b1c4.jpeg",
@@ -21,12 +23,12 @@
     "static/media/css.png": "/static/media/css.c5583d093ec16d030195.png",
     "static/media/chos.png": "/static/media/chos.7d928801d0c66540db58.png",
     "index.html": "/index.html",
-    "main.43dfa066.css.map": "/static/css/main.43dfa066.css.map",
-    "main.7cd954e8.js.map": "/static/js/main.7cd954e8.js.map",
+    "main.e2e0ada6.css.map": "/static/css/main.e2e0ada6.css.map",
+    "main.c8ad15e0.js.map": "/static/js/main.c8ad15e0.js.map",
     "453.1b23023c.chunk.js.map": "/static/js/453.1b23023c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43dfa066.css",
-    "static/js/main.7cd954e8.js"
+    "static/css/main.e2e0ada6.css",
+    "static/js/main.c8ad15e0.js"
   ]
 }
