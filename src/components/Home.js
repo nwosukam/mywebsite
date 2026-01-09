@@ -14,10 +14,10 @@ function Home() {
     <section className='' id="main">
 
 
-    <Navbar expand="lg" className="p-3 w-75 w-md-100 w-sm-100 mx-auto rounded-5 fixed-top" id='nav2'>
+    <Navbar expand="lg" className="p-3 w-75 w-md-100 w-sm-100 mx-auto rounded-5 fixed-top navbar-dark" id='nav2'>
       <Container>
-         <img src={logo} alt="Kamsi's Avatar" width="50" height="50" className="d-inline-block align-text-top rounded-5"/>
-        <Navbar.Brand href="#" className='ps-3 text-white'>NWOSU KAMSIYOCHUKWU</Navbar.Brand>
+         <img id='logo' src={logo} alt="Kamsi's Avatar" width="50" height="50" className="d-inline-block align-text-top rounded-5"/>
+        <Navbar.Brand href="#" className='ps-3 text-white' id='nav-brand'>NWOSU KAMSIYOCHUKWU</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
@@ -43,7 +43,7 @@ function Home() {
 <h1>Hi,<br/> I'm Kamsiyochukwu (Kamsi) Nwosu.</h1>
 <div className='d-flex gap-3' id='typewriter-div'>
   <h1>I'm   </h1>
-  <h2 id='typewriter'><Typewriter options={{
+  <h1 id='typewriter'><Typewriter options={{
     strings:[
       "<span id='red'>a coding talent</span>", 
       "<span id='blue'>a developer</span>", 
@@ -54,7 +54,7 @@ function Home() {
        cursor: '_', 
        delay: 90,
        deleteSpeed: 40  }}/>
-       </h2>
+       </h1>
        </div>
 <p>I am a Coding Talent driven by creativity, problem-solving, and continual growth. I excel at turning concepts into interactive, efficient, and visually striking digital solutions. From developing refined websites and crafting responsive interfaces to streamlining backend systems, I take pride in writing code that delivers real impact.</p>
 <div className='d-flex gap-3'>
@@ -79,7 +79,7 @@ function Home() {
       </div>
       <hr className='bg-light' id='footline'/>
     <div>
-      <p className='m-0'>© 2025 Kamsi Nwosu. All rights reserved.</p>
+      <p className='m-0'>© 2026 Kamsi Nwosu. All rights reserved.</p>
     </div>
   </section>
     </section>

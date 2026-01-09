@@ -56,3 +56,50 @@
         margin-right: 0 !important;
     }
 }
+
+@media (max-width: 480px){
+    #nav2{
+        width: 100% !important;
+        padding: 0!important;
+        gap: 0 !important;
+    }
+    #nav-brand{
+        font-size: 0.8rem;
+        margin-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .ms-auto{
+        margin-left: 0 !important;
+    }
+    #logo{
+    width: 30px !important;
+    height: 30px !important;
+    }
+    .container{
+        flex-direction: row !important;
+          align-items: center !important;
+  justify-content: center !important;
+  padding-right: 0 !important;
+    padding-left: 0 !important;
+        gap: 10px !important;
+        width: 100% !important;
+    }
+    .navbar-toggler{
+        padding: 0 !important;
+    }
+}
+
+@media (max-width: 627px){
+#nav2{
+    width: 100% !important;
+}
+    .nav-link{
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px){
+    #contacts{
+        font-size: 1.4rem !important;
+    }
+}

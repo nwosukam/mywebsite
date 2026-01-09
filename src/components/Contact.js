@@ -59,7 +59,7 @@ function Contact() {
   return (
 
  <section className='' id='main-con'>
-    <Navbar expand="lg" className="p-3 w-75 w-md-100 w-sm-100 mx-auto rounded-5 fixed-top" id='nav'>
+    {/* <Navbar expand="lg" className="p-3 w-75 w-md-100 w-sm-100 mx-auto rounded-5 fixed-top" id='nav'>
       <Container>
          <img src={logo} alt="Kamsi's Avatar" width="50" height="50" className="d-inline-block align-text-top rounded-5"/>
         <Navbar.Brand href="#" className='ps-3 text-white'>NWOSU KAMSIYOCHUKWU</Navbar.Brand>
@@ -81,7 +81,34 @@ function Contact() {
           </Nav>
         </Navbar.Collapse>
       </Container>
+    </Navbar> */}
+
+
+    <Navbar expand="lg" className="p-3 w-75 w-md-100 w-sm-100 mx-auto rounded-5 fixed-top navbar-dark" id='nav2'>
+      <Container>
+         <img id='logo' src={logo} alt="Kamsi's Avatar" width="50" height="50" className="d-inline-block align-text-top rounded-5"/>
+        <Navbar.Brand href="#" className='ps-3 text-white' id='nav-brand'>NWOSU KAMSIYOCHUKWU</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto">
+            <Nav.Link>
+              <Link className="nav-link link-hover text-white" to="/">Home</Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link className="nav-link link-hover text-white" to="/about">About</Link>
+              </Nav.Link>    
+            <Nav.Link>
+              <Link className="nav-link link-hover text-white" to="/experience">Experience</Link>
+            </Nav.Link>
+            <Nav.Link>
+               <Link className="nav-link active link-hover text-white" aria-current="page" to="/contact">Contact</Link>
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
     </Navbar>
+
+
 <section id='body-con'>
     {/* <form onSubmit={handleSubmit(onSubmit)}>
       <input {...register("firstName", { required: true, maxLength: 20 })} />
@@ -101,9 +128,9 @@ function Contact() {
 
     
     <h1 style={{ textAlign: "center", color: "white" }}>Contact Me</h1>
-        <h2 style={{ textAlign: "center", marginTop: "10px", color: "white" }}>kamsee417@gmail.com</h2>
-        <h2 style={{ textAlign: "center", marginTop: "10px", color: "white" }}>nwosukam333@gmail.com</h2>
-        <h2 style={{ textAlign: "center", marginTop: "10px", color: "white" }}>+234 7066679419</h2>
+        <h2 style={{ textAlign: "center", marginTop: "10px", color: "white" }} id='contacts'>kamsee417@gmail.com</h2>
+        <h2 style={{ textAlign: "center", marginTop: "10px", color: "white" }} id='contacts'>nwosukam333@gmail.com</h2>
+        <h2 style={{ textAlign: "center", marginTop: "10px", color: "white" }} id='contacts'>+234 7066679419</h2>
       <form
       ref={form}
       onSubmit={handleSubmit(sendEmail)}
@@ -237,7 +264,7 @@ function Contact() {
       </div>
       <hr className='bg-light' id='footline'/>
     <div>
-      <p className='m-0'>© 2025 Kamsi Nwosu. All rights reserved.</p>
+      <p className='m-0'>© 2026 Kamsi Nwosu. All rights reserved.</p>
     </div>
   </section>
     </section>

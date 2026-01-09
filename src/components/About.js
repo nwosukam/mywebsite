@@ -1,7 +1,7 @@
 import './about.css';
 import { Link } from "react-router-dom";
 import logo from './logo2.png';
-import Carousel from 'react-bootstrap/Carousel';
+// import Carousel from 'react-bootstrap/Carousel';
 import ExampleCarouselImage from './back.png';
 import sciencepic from './sciencepic.jpeg';
 import museumpic from './museumpic.jpeg';
@@ -11,9 +11,19 @@ import musicapp from './musicappp.png';
 import personal from './personal.jpeg';
 import currentcoding from './currentcoding.jpeg';
 import Container from 'react-bootstrap/Container';
-import { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+
+// import required modules
+import { Pagination, Navigation } from 'swiper/modules';
 
 function About() {
     const [index, setIndex] = useState(0);
@@ -22,13 +32,16 @@ function About() {
     setIndex(selectedIndex);  };
   return (
     <section className='' id='yes2'>
-    <Navbar expand="lg" className="p-3 w-75 w-md-100 w-sm-100 mx-auto rounded-5 fixed-top" id='nav3'>
+
+
+    
+    <Navbar expand="lg" className="p-3 w-75 w-md-100 w-sm-100 mx-auto rounded-5 fixed-top navbar-dark" id='nav2'>
       <Container>
-         <img src={logo} alt="Kamsi's Avatar" width="50" height="50" className="d-inline-block align-text-top rounded-5"/>
-        <Navbar.Brand href="#" className='ps-3 text-white'>NWOSU KAMSIYOCHUKWU</Navbar.Brand>
+         <img id='logo' src={logo} alt="Kamsi's Avatar" width="50" height="50" className="d-inline-block align-text-top rounded-5"/>
+        <Navbar.Brand href="#" className='ps-3 text-white' id='nav-brand'>NWOSU KAMSIYOCHUKWU</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+                    <Nav className="ms-auto">
             <Nav.Link>
               <Link className="nav-link link-hover text-white" to="/">Home</Link>
             </Nav.Link>
@@ -45,9 +58,10 @@ function About() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+
 <section id='body-ab'>
 
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    {/* <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img src={ExampleCarouselImage} alt="First Slide" id='slideimg' />
         <Carousel.Caption style={{ position: 'absolute', top: '10%', textAlign: 'left' }}>
@@ -92,7 +106,52 @@ function About() {
           </div>
         </Carousel.Caption>
       </Carousel.Item>
-    </Carousel>
+    </Carousel> */}
+<h1 className='mb-5 text-center'>My Path Into the World of Software Engineering</h1>
+
+      <Swiper
+        pagination={{
+          type: 'progressbar',
+        }}
+        navigation={true}
+        modules={[Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <SwiperSlide className="swiper-slide">
+          <h2>Where It All Started From</h2>
+          <p style={{ fontSize:'16px'}}>My interest in science and technology didn’t begin with code — it started with curiosity. I’ve always enjoyed asking how things work and experimenting with ideas, whether that meant taking things apart, trying new tools, or exploring how technology shapes everyday life.</p>
+          <div className='d-flex pt-3' id='slide-img-div'>
+          <img src={sciencepic}width='40%' style={{ height: '300px'}}/>
+          <img src={museumpic} width='40%' style={{ height: '300px'}} className='ms-auto'/>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <h2>Learning By Doing</h2>
+          <p style={{ fontSize:'16px'}}>Some of my most important lessons came from hands-on experiences. From school science projects to experimenting with computers and software, I learned that trial and error is part of the process. Each challenge taught me patience, creativity, and how to think logically when things don’t work the first time.</p>
+          <div className='d-flex pt-3' id='slide-img-div'>
+          <img src={codingkid} width='40%' style={{ height: '300px'}}/>
+          <img src={comppic} width='40%' style={{ height: '300px'}} className='ms-auto'/>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <h2>Discovering Software Engineering</h2>
+          <p style={{ fontSize:'16px'}}>As I explored technology more deeply, I discovered software engineering. Writing my first lines of code showed me how ideas could turn into real, usable applications, and that feeling has kept me motivated ever since. Every project I work on helps me grow, not just as a developer, but as a thinker. I’ve learned how to stay curious, learn from mistakes, and improve with feedback.</p>
+          <div className='d-flex pt-3' id='slide-img-div'>
+          <img src={musicapp} width='40%' style={{ height: '300px'}}/>
+          <img src={comppic} width='40%' style={{ height: '300px'}} className='ms-auto'/>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <h2>Looking Ahead</h2>
+          <p style={{ fontSize:'16px'}}>My journey is still ongoing, and I’m excited about what’s ahead. I’m eager to learn from real-world experiences, collaborate with others, and continue building my skills in science and technology as I grow into my role as a software engineer.</p>
+          <div className='d-flex pt-3' id='slide-img-div'>
+          <img src={personal} width='40%' style={{ height: '300px'}}/>
+          <img src={currentcoding} width='40%' style={{ height: '300px'}} className='ms-auto'/>
+          </div>
+        </SwiperSlide>
+
+      </Swiper>
+
 </section>
   
   <section className='text-center text-light' id='footer-ab'>
@@ -108,7 +167,7 @@ function About() {
       </div>
       <hr className='bg-light' id='footline'/>
     <div>
-      <p className='m-0'>© 2025 Kamsi Nwosu. All rights reserved.</p>
+      <p className='m-0'>© 2026 Kamsi Nwosu. All rights reserved.</p>
     </div>
   </section>
     </section>

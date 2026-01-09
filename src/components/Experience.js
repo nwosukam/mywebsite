@@ -23,16 +23,17 @@ import musicapp from './musicappp.png'
 import smiley from './smiley.png'
 import atctool from './atctool.png'
 import hallow from './hallow.png'
+import viofound from './viofound.png'
 import { FaLinkedin } from "react-icons/fa";
 import { MdLanguage } from "react-icons/md";
 
 function Experience() {
   return (
     <section className='' id='main-exp'>
-    <Navbar expand="lg" className="p-3 w-75 w-md-100 w-sm-100 mx-auto rounded-5 fixed-top" id='nav4'>
+    <Navbar expand="lg" className="p-3 w-75 w-md-100 w-sm-100 mx-auto rounded-5 fixed-top navbar-dark" id='nav4'>
       <Container>
          <img src={logo} alt="Kamsi's Avatar" width="50" height="50" className="d-inline-block align-text-top rounded-5"/>
-        <Navbar.Brand href="#" className='ps-3 text-white'>NWOSU KAMSIYOCHUKWU</Navbar.Brand>
+        <Navbar.Brand href="#" className='ps-3 text-white' id='nav-brand'>NWOSU KAMSIYOCHUKWU</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
@@ -93,14 +94,14 @@ function Experience() {
       </Accordion.Item>
     </Accordion>   */}
 <div id='intro' className='text-center'>
-    <h1>Most of my software developing journey has been with the <br />Code14 Labs company.</h1>
+    <h1 id='heads'>Most of my software developing journey has been with the <br />Code14 Labs company.</h1>
     <div id='company'>
 <img alt='logo' src={c14}/> 
 <a className='text-white btn d-flex gap-1' href='http://code14-Labs.tech'><MdLanguage className='spec' size={28} color="#ffffffff" /><p className='link-hover'>Company Website</p></a>
 <a className='text-white btn d-flex gap-1' href='https://www.linkedin.com/company/code-4teen/'> <FaLinkedin className='spec' size={28} color="#0a66c2" /><p className='link-hover'>Linkedin Page</p></a>
     </div> 
 
-      <h2>Code4Teen Labs Internship Experience</h2>
+      <h2 id='heads'>Code4Teen Labs Internship Experience</h2>
       <p id='intop'>Code4Teen Labs is a tech company that focuses on teaching coding to teenagers and kids. During my time with Code4Teen Labs, I have had the opportunity to work on various projects and gain valuable experience in software development. Below is a summary of my experience with the company over the years:</p> 
 
    </div>   
@@ -204,6 +205,11 @@ function Experience() {
    <a href='https://hallowexe.netlify.app/' className='btn text-white link-hover'><h3>Hallow Clothing Brand Website</h3></a>
   <p>I designed and developed the official website for Hallow Clothing, a streetwear brand, delivering a fully functional e-commerce platform. The website enables users to browse products, add items to a shopping cart, complete secure online payments, and place orders for processing and delivery by the Hallow team.</p>
   </div>
+        <div>
+  <a href='https://viofoundation.com/'><img src={viofound} width='300px'/></a>
+   <a href='https://viofoundation.com/' className='btn text-white link-hover'><h3>Virginia Ifejika Odukwe Foundation Website</h3></a>
+  <p>I designed and developed a responsive website for the Virginia Ifejika Odukwe Foundation that provides scholarships to secondary school students. The website highlights the foundation’s mission, showcases student success stories, and explains how students can apply for financial support. It includes sections for programs, eligibility guides, contact information, and a clean interface that makes it easy for visitors to learn more and get involved.</p>
+  </div>
  </div>
 </section>
   
@@ -220,7 +226,7 @@ function Experience() {
       </div>
       <hr className='bg-light' id='footline'/>
     <div>
-      <p className='m-0'>© 2025 Kamsi Nwosu. All rights reserved.</p>
+      <p className='m-0'>© 2026 Kamsi Nwosu. All rights reserved.</p>
     </div>
   </section>
     </section>
