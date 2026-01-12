@@ -15,7 +15,8 @@ import React, { useRef, useState } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import result from './result.pdf';
+import awards from './awards.pdf';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -152,6 +153,37 @@ function About() {
 
       </Swiper>
 
+    <h1 className='mt-5'>My Education Journey</h1>
+    <p className='text-center'>Here is a summary of my educational background and experiences:</p>
+
+<div className='d-flex gap-5 flex-column justify-content-center align-items-center mb-5 pb-5' id='palletsab-div'>
+
+    <div id='palletsab'>
+    <h3 id='yearab'>2015-2020</h3>
+    <div id='contentab' className='d-flex flex-column'>
+      <h3 className='text-center'>ST. SAVIORS SCHOOL, EBUTTE METTA, LAGOS STATE</h3>
+      <h5>Primary School Education.</h5>
+    </div>
+    </div>
+
+    <div id='palletsab' className='tri'>
+    <h3 id='yearab'>2020-2026</h3>
+    <div id='contentab' className='d-flex flex-column w-100'>
+      <h3 className='text-center'>TRINITY INTERNATIONAL COLLEGE, OFADA, OGUN STATE</h3>
+      <h5>Secondary School Education.</h5>
+      <ul>
+        <li>ASSISTANT HEAD BOY</li>
+        <li>COLLEGE BAND LEADER AND MEMBER OF COLLEGE CHOIR</li>
+        <li>MEMBER OF COLLEGE BASKETBALL TEAM</li>
+        <li>SSCE (WASSCE FOR PRIVATE CANDIDATES FEB 2025)<a className='ms-5' href={result} target="_blank" rel="noopener noreferrer">Result</a></li>
+        <li><a href={awards} target="_blank" rel="noopener noreferrer">AWARDS</a></li>
+
+
+      </ul>
+    </div>
+    </div>
+
+ </div>
 </section>
   
   <section className='text-center text-light' id='footer-ab'>

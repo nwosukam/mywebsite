@@ -208,7 +208,7 @@ function Experience() {
         <div>
   <a href='https://viofoundation.com/'><img src={viofound} width='300px'/></a>
    <a href='https://viofoundation.com/' className='btn text-white link-hover'><h3>Virginia Ifejika Odukwe Foundation Website</h3></a>
-  <p>I designed and developed a responsive website for the Virginia Ifejika Odukwe Foundation that provides scholarships to secondary school students. The website highlights the foundation’s mission, showcases student success stories, and explains how students can apply for financial support. It includes sections for programs, eligibility guides, contact information, and a clean interface that makes it easy for visitors to learn more and get involved.</p>
+  <p>I designed and developed a responsive website for the Virginia Ifejika Odukwe Foundation that provides scholarships to primary school students who have a storng intrest in Mathematics and Science. The website highlights the foundation’s mission, showcases previous events, and provides contact information for interested applicants.</p>
   </div>
  </div>
 </section>
