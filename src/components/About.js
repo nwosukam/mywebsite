@@ -17,6 +17,10 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import result from './result.pdf';
 import awards from './awards.pdf';
+import stawards from './stawards.pdf';
+import satresult from './satresult.pdf';
+import scholars from './scholars.pdf';
+import finalyear from './finalyear.pdf';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -163,6 +167,7 @@ function About() {
     <div id='contentab' className='d-flex flex-column'>
       <h3 className='text-center'>ST. SAVIORS SCHOOL, EBUTTE METTA, LAGOS STATE</h3>
       <h5>Primary School Education.</h5>
+        <a href={stawards} target="_blank" rel="noopener noreferrer">AWARDS</a>
     </div>
     </div>
 
@@ -175,9 +180,11 @@ function About() {
         <li>ASSISTANT HEAD BOY</li>
         <li>COLLEGE BAND LEADER AND MEMBER OF COLLEGE CHOIR</li>
         <li>MEMBER OF COLLEGE BASKETBALL TEAM</li>
+        <li>FINAL YEAR MOCK EXAMS<a className='ms-5' href={finalyear} target="_blank" rel="noopener noreferrer">Result</a></li>
         <li>SSCE (WASSCE FOR PRIVATE CANDIDATES FEB 2025)<a className='ms-5' href={result} target="_blank" rel="noopener noreferrer">Result</a></li>
+        <li>SAT (SEPTEMBER DIET 2025) <a className='ms-5' href={satresult} target="_blank" rel="noopener noreferrer">Result</a></li>
         <li><a href={awards} target="_blank" rel="noopener noreferrer">AWARDS</a></li>
-
+        <li><a href={scholars} target="_blank" rel="noopener noreferrer">SCHOLARSHIPS</a></li>
 
       </ul>
     </div>
