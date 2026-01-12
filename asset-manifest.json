@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c0faab6.css",
-    "main.js": "/static/js/main.739becb4.js",
+    "main.css": "/static/css/main.9961bbd5.css",
+    "main.js": "/static/js/main.81ec70b5.js",
     "static/js/453.1b23023c.chunk.js": "/static/js/453.1b23023c.chunk.js",
     "static/media/awards.pdf": "/static/media/awards.887059945ad86e9e06b0.pdf",
     "static/media/background.png": "/static/media/background.a0f0ba48c59704909366.png",
     "static/media/smiley.png": "/static/media/smiley.dd4d9e9d8058227e01d7.png",
     "static/media/viofound.png": "/static/media/viofound.9ef29106fd84556a430a.png",
+    "static/media/stawards.pdf": "/static/media/stawards.c79c2578b628f77149c2.pdf",
+    "static/media/scholars.pdf": "/static/media/scholars.09c38b3c1a2b21546e40.pdf",
     "static/media/hallow.png": "/static/media/hallow.e63b60ee663beabab1b0.png",
+    "static/media/finalyear.pdf": "/static/media/finalyear.15713ff173908d06b242.pdf",
     "static/media/musicappp.png": "/static/media/musicappp.17cfd602b31e20739cab.png",
     "static/media/result.pdf": "/static/media/result.dc57ab4612f151ac0af6.pdf",
     "static/media/personal.jpeg": "/static/media/personal.b5fd090e822afef9e133.jpeg",
@@ -16,6 +19,7 @@
     "static/media/html.png": "/static/media/html.1d7b133e22ffe4829da6.png",
     "static/media/codingkid.jpeg": "/static/media/codingkid.758fe4e36c7822d1b1c4.jpeg",
     "static/media/comppic.jpeg": "/static/media/comppic.4d9f9b456c95e8710624.jpeg",
+    "static/media/satresult.pdf": "/static/media/satresult.525fc584ae4b001f1346.pdf",
     "static/media/sciencepic.jpeg": "/static/media/sciencepic.c40ec8c2ac249a819100.jpeg",
     "static/media/museumpic.jpeg": "/static/media/museumpic.8969368368f30d608f6f.jpeg",
     "static/media/currentcoding.jpeg": "/static/media/currentcoding.56b0be26d8225fb4e602.jpeg",
@@ -26,12 +30,12 @@
     "static/media/css.png": "/static/media/css.c5583d093ec16d030195.png",
     "static/media/chos.png": "/static/media/chos.7d928801d0c66540db58.png",
     "index.html": "/index.html",
-    "main.8c0faab6.css.map": "/static/css/main.8c0faab6.css.map",
-    "main.739becb4.js.map": "/static/js/main.739becb4.js.map",
+    "main.9961bbd5.css.map": "/static/css/main.9961bbd5.css.map",
+    "main.81ec70b5.js.map": "/static/js/main.81ec70b5.js.map",
     "453.1b23023c.chunk.js.map": "/static/js/453.1b23023c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c0faab6.css",
-    "static/js/main.739becb4.js"
+    "static/css/main.9961bbd5.css",
+    "static/js/main.81ec70b5.js"
   ]
 }
